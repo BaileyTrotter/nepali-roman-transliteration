@@ -487,9 +487,9 @@ def romanize_text(text):
 import sys
 
 stdoutOrigin = sys.stdout
-sys.stdout = open('roman.csv', 'w')
+sys.stdout = open('nepali.csv', 'w')
 #import
-with open('nepali.csv', 'r') as f:
+with open('roman.csv', 'r') as f:
     f_contents = f.read()
 
 romanize_text(f_contents)
