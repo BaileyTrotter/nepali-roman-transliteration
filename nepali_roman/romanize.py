@@ -5,9 +5,9 @@ from collections import OrderedDict
 
 d2r_dict=OrderedDict([
 ('ँ', ' ̃'),
-('ं', 'ṃ'),
+('ं', ' ̃'),
 ('ः', 'ḥ'),
-('ृ', 'r̥'),
+('ृ', 'ṛi'),
 
 ('ख्', 'kh'),
 ('क्', 'k'),
